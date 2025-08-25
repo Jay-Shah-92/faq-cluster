@@ -55,11 +55,14 @@ Instead of manually curating thousands of queries, FAQ Extractor generates a rea
 
 ##  Demo and Preview
 
-*  Example funnel stage distribution:
-  ![Funnel Chart](data/output/funnel_stage_distribution.png)
-
 *  Example clustering visualization:
-  ![Cluster Scatter](data/output/cluster_scatter.png)
+  
+    ![Cluster Scatter](data/output/visualisation/cluster_scatter.png)
+
+
+*  Example funnel stage distribution:
+  
+    ![Funnel Chart](data/output/visualisation/funnel_stage_pie.png)
 
 ---
 
@@ -67,7 +70,7 @@ Instead of manually curating thousands of queries, FAQ Extractor generates a rea
 
 ```bash
 # Clone repo
-git clone https://github.com/js-92/faq-extractor.git
+git clone https://github.com/Jay-Shah--92/faq-extractor.git
 cd faq-extractor
 
 # Create & activate virtual environment
@@ -112,16 +115,6 @@ OUTPUT_FILE=./data/output/questions_final.csv
 
 ---
 
-##  Testing
-
-```bash
-pytest tests/   # if test suite exists
-```
-
-Expected: Logs + reproducible charts in `data/output/`
-
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).  
@@ -140,7 +133,7 @@ This project is licensed under the [MIT License](LICENSE).
 ##  FAQs
 
 * **Q: Does it work with languages other than English?**
-  A: Currently English only. Future multilingual support planned.
+  A: Currently, English only. Future multilingual support planned.
 
 * **Q: What if my CSV doesn’t have a `title` column?**
   A: Please rename your query column to `title`.
