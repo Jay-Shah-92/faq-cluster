@@ -21,8 +21,6 @@ Instead of manually curating thousands of queries, FAQ Extractor generates a rea
 * [Installation](#installation)
 * [Usage](#usage)
 * [Configuration](#configuration)
-* [Testing](#testing)
-* [Contributing](#contributing)
 * [License](#license)
 * [Acknowledgments](#acknowledgments)
 * [FAQs](#faqs)
