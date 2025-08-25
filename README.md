@@ -1,4 +1,4 @@
-# 🧾 FAQ Extractor
+# FAQ Cluster
 
 *Automatically discover, clean, and classify FAQs from raw datasets.*
 
@@ -15,34 +15,34 @@ Instead of manually curating thousands of queries, FAQ Extractor generates a rea
 
 ## 📑 Table of Contents
 
-* [Features](#-features)
-* [Technology Stack](#-technology-stack)
-* [Demo and Preview](#-demo-and-preview)
-* [Installation](#-installation)
-* [Usage](#-usage)
-* [Configuration](#-configuration)
-* [Testing](#-testing)
-* [Contributing](#-contributing)
-* [License](#-license)
-* [Acknowledgments](#-acknowledgments)
-* [FAQs](#-faqs)
-* [Contact](#-contact)
+* [Features](#features)
+* [Technology Stack](#technology-stack)
+* [Demo and Preview](#demo-and-preview)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Configuration](#configuration)
+* [Testing](#testing)
+* [Contributing](#contributing)
+* [License](#license)
+* [Acknowledgments](#acknowledgments)
+* [FAQs](#faqs)
+* [Contact](#contact)
 
 ---
 
-## ✨ Features
+##  Features
 
-* 📂 Multi-file ingestion (CSV merge)
-* 🧹 Text cleansing & normalization
-* ❓ Question detection + typing (what, how, why)
-* 🏷 Named-entity recognition (products, dates, people)
-* 🤖 Zero-shot funnel classification (Awareness → Advocacy)
-* 📊 Clustering & visualization (KMeans + TF-IDF + SVD)
-* 📈 Exports clean CSV + PNG charts
+*  Multi-file ingestion (CSV merge)
+*  Text cleansing & normalization
+*  Question detection + typing (what, how, why)
+*  Named-entity recognition (products, dates, people)
+*  Zero-shot funnel classification (Awareness → Advocacy)
+*  Clustering & visualization (KMeans + TF-IDF + SVD)
+*  Exports clean CSV + PNG charts
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 * **Language:** Python 3.9+
 * **NLP:** spaCy, NLTK
@@ -53,19 +53,17 @@ Instead of manually curating thousands of queries, FAQ Extractor generates a rea
 
 ---
 
-## 📺 Demo and Preview
+##  Demo and Preview
 
-* 📊 Example funnel stage distribution:
+*  Example funnel stage distribution:
   ![Funnel Chart](data/output/funnel_stage_distribution.png)
 
-* 📌 Example clustering visualization:
+*  Example clustering visualization:
   ![Cluster Scatter](data/output/cluster_scatter.png)
-
-* Live Demo (coming soon via Streamlit UI 🚀)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 # Clone repo
@@ -83,7 +81,7 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## 🧩 Usage
+##  Usage
 
 1. Drop raw CSVs into `data/input/`
 
@@ -103,7 +101,7 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Customize `.env` file:
 
@@ -114,7 +112,7 @@ OUTPUT_FILE=./data/output/questions_final.csv
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 pytest tests/   # if test suite exists
@@ -124,27 +122,14 @@ Expected: Logs + reproducible charts in `data/output/`
 
 ---
 
-## 🤝 Contributing
+## License
 
-We welcome contributions ❤️
-
-1. Fork repo & create feature branch
-2. Submit PR with explanation
-3. File issues for bugs or suggestions
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+This project is licensed under the [MIT License](LICENSE).  
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
-## 📄 License
-
-MIT © 2025 [js-92](https://github.com/js-92)
-
-See [LICENSE](LICENSE) for full details.
-
----
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 * spaCy & Hugging Face teams
 * scikit-learn community
@@ -152,7 +137,7 @@ See [LICENSE](LICENSE) for full details.
 
 ---
 
-## ❓ FAQs
+##  FAQs
 
 * **Q: Does it work with languages other than English?**
   A: Currently English only. Future multilingual support planned.
@@ -162,7 +147,10 @@ See [LICENSE](LICENSE) for full details.
 
 ---
 
-## 📬 Contact
+##  Contact
 
-📧 [jay.shah@example.com](mailto:jay.shah@example.com)
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/js-92)
+For questions or collaboration:
+
+* **Author**: Jay Shah
+* **Email**: [jayshah92.ca@gmnail.com](mailto:jayshah92.ca@gmail.com)
+* **GitHub**: [Jay-Shah-92](https://github.com/Jay-Shah-92)
